@@ -7,28 +7,19 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <h1>hi, i'm ayushi 👋</h1>
+      <p>currently a student at mills high, aspiring to be an electrical engineer.</p>
+      <h3>stuff i've done:</h3>
+      <ul>
+        <li>organizer for <a>aurora in sf</a> (coming soon!)</li>
+        <li>published seven poems in my school's <a>lit magazine</a> </li>
+        <li>electrical lead at <a>boba bots</a> </li>
+        <li>attended 2024 <a>gwc sip</a> </li>
+      </ul>
+      <h3>contact me at:</h3>
+      <p>aayushiswami08@gmail.com</p>
+    </div>
   )
 }
 
